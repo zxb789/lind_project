@@ -121,9 +121,6 @@ matrix:
         - MATRIX_EVAL="$MATRIX_EVAL MAKEFLAGS=-j8"
         - MATRIX_EVAL="$MATRIX_EVAL PATH=/home/travis/lind_project/native_client/toolchain/linux_x86/bin:/home/travis/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/bin:/home/travis/lind_project/lind/repy/bin:/home/travis/lind_project:/home/travis/bin:/home/travis/.local/bin:$PATH"
 
-before_install:
-  - git submodule update --init --recursive
-
 script:
     - eval "$MATRIX_EVAL"
     - mv -v "/home/travis/build/Lind-Project/lind_project" ~/
