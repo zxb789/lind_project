@@ -131,6 +131,9 @@ matrix:
 #     - sudo apt-get install -qq --allow-unauthenticated --fix-missing linux-headers-generic linux-libc-dev
 #     - sudo apt-get install -qq --allow-unauthenticated --fix-missing virtualenvwrapper elfutils libelf-dev
 
+before_install:
+  - git submodule update --init --recursive
+
 script:
     - eval "$MATRIX_EVAL"
     - mv -v "/home/travis/build/Lind-Project/lind_project" ~/
@@ -139,8 +142,8 @@ script:
     # - docker build --compress --no-cache -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk
     # - docker build --compress --no-cache -t alyptik/lind:naclruntime ./docker/naclruntime
     # - docker build --compress --cache-from=alyptik/lind:naclruntime -t alyptik/lind:latest ./docker/naclruntime
-    - docker build -t alyptik/lind:latest ./docker/naclruntime
-    - docker run --rm --name=lind --label=lind --ipc=host --cap-add=SYS_PTRACE -it alyptik/lind /home/lind/lind_project/lind/repy/bin/lind /bin/bash -c 'a=potato; [[ $a =~ pota.* ]] && echo foo; echo bar'
+    - docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk
+    - docker run --rm --name=lind --ipc=host --cap-add=SYS_PTRACE -it alyptik/lind:prebuiltsdk /home/lind/lind_project/lind/repy/bin/lind /bin/bash -c 'a=potato; [[ $a =~ pota.* ]] && echo foo; echo bar'
 
 # script:
 #     - eval "$MATRIX_EVAL"
