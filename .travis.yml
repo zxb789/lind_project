@@ -22,6 +22,9 @@ matrix:
             - gcc-multilib
             - g++-multilib
 
+before_install:
+    - git submodule update --init --recursive --remote .
+
 script:
     - docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk
     # - travis_wait 60 bash -c 'docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk >/dev/null 2>&1'
