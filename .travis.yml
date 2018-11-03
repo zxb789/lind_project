@@ -129,7 +129,8 @@ script:
     # - docker build --compress --no-cache -t alyptik/lind:naclruntime ./docker/naclruntime
     # - docker build --compress --cache-from=alyptik/lind:naclruntime -t alyptik/lind:latest ./docker/naclruntime
     # - docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk
-    - travis_wait 60 bash -c 'docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk >/dev/null 2>&1'
+    # - travis_wait 60 bash -c 'docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk >/dev/null 2>&1'
+    - travis_wait 60 bash -c 'docker build -t alyptik/lind:naclruntime ./docker/naclruntime >/dev/null 2>&1'
     - docker run --rm --ipc=host --cap-add=SYS_PTRACE -it alyptik/lind:prebuiltsdk /home/lind/lind_project/lind/repy/bin/lind /bin/bash -c 'a=potato; [[ $a =~ pota.* ]] && echo foo; echo bar'
     # - echo travis:$sshpassword | sudo chpasswd
     # - sudo sed -i 's/ChallengeResponseAuthentication no/ChallengeResponseAuthentication yes/' /etc/ssh/sshd_config

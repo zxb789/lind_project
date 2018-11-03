@@ -1,4 +1,4 @@
-FROM alyptik/lind:base
+FROM alyptik/lind:prebuiltsdk
 LABEL lind "v1.0-rc4"
 LABEL description "Lind NaCl Runtime (Pre-built)"
 MAINTAINER Joey Pabalinas <joeypabalinas@gmail.com>
@@ -23,7 +23,6 @@ USER lind
 WORKDIR /home/lind/lind_project/
 RUN ["./mklind", "-qe", "nacl"]
 RUN ["./mklind", "-qe", "repy"]
-RUN ["./mklind", "-qe", "glibc"]
 RUN ["./mklind", "-qe", "install"]
 RUN ["./mklind", "-qe", "cleanall"]
 RUN ["/usr/bin/env", "x86_64-nacl-gcc", "test_cases/fork.c", "-o", "lind/repy/repy/fork"]
