@@ -22,6 +22,5 @@ USER lind
 
 WORKDIR /home/lind/lind_project/
 RUN ["./mklind", "-qe", "glibc"]
-RUN ["./mklind", "-qe", "install"]
 
 ENTRYPOINT ["/usr/bin/zsh"]
