@@ -25,9 +25,7 @@ matrix:
 script:
     - mv -v "/home/travis/build/Lind-Project/lind_project" ~/
     - cd ~/lind_project
+    - docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk 2>/dev/null
     - travis_wait 60 bash -c 'docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk >/dev/null 2>&1'
-    # - travis_wait 60 bash -c 'docker build -t alyptik/lind:naclruntime ./docker/naclruntime >/dev/null 2>&1'
-    # - travis_wait 60 bash -c 'docker build -t alyptik/lind:latest ./docker/naclruntime >/dev/null 2>&1'
-    - docker run --rm --ipc=host --cap-add=SYS_PTRACE -it alyptik/lind:prebuiltsdk /home/lind/lind_project/lind/repy/bin/lind /bin/bash -c 'a=potato; [[ $a =~ pota.* ]] && echo foo; echo bar' || true
 
 # vi:ft=yaml:
