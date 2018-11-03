@@ -23,9 +23,8 @@ matrix:
             - g++-multilib
 
 script:
-    - mv -v "/home/travis/build/Lind-Project/lind_project" ~/
-    - cd ~/lind_project
-    - docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk 2>/dev/null
-    - travis_wait 60 bash -c 'docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk >/dev/null 2>&1'
+    - cd ~/Lind-Project/lind_project
+    - docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk
+    # - travis_wait 60 bash -c 'docker build -t alyptik/lind:prebuiltsdk ./docker/prebuiltsdk >/dev/null 2>&1'
 
 # vi:ft=yaml:
