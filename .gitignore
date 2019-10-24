@@ -137,4 +137,8 @@ docker/home/
 docker/root/
 pkgs/
 
+src/third_party/scons-2.0.1/
+src/third_party/lcov
+src/third_party/ragel
+
 # vi:ft=cfg:
