@@ -68,7 +68,7 @@ for var in "${nondeterministicinput[@]}"; do
     echo "regularoutput"
     echo "$regularoutput"
     echo "Does lindoutput fit regular expression modified regularoutput?"
-    if [ $(python2 "${var%.*}.py" "$lindoutput" "$regularoutput") != 0 ]; then
+    if [ "$(python2 "${var%.*}.py" "$lindoutput" "$regularoutput")" != 0 ]; then
         error=1
     fi
 done
