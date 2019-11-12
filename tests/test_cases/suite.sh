@@ -16,6 +16,7 @@ for var in "$@"; do
     esac;
 done;
 
+error=0
 echo ${deterministicinput[@]}
 echo ${nondeterministicinput[@]}
 totalarray=( "${deterministicinput[@]}" "${nondeterministicinput[@]}" )
@@ -44,7 +45,12 @@ for var in "${deterministicinput[@]}"; do
     echo "regularoutput"
     echo "$regularoutput"
     echo "Does lindoutput == regularoutput?"
-    [[ "$lindoutput" = "$regularoutput" ]] && echo TEST PASSED || echo TEST FAILED
+    if [[ "$lindoutput" = "$regularoutput" ]]; then
+        echo TEST PASSED;
+    else 
+        echo TEST FAILED; 
+        error=1;
+    fi;
 done
 echo "------------------------------------------------------------------"
 echo "Executing nondeterministic test cases"
@@ -62,8 +68,11 @@ for var in "${nondeterministicinput[@]}"; do
     echo "regularoutput"
     echo "$regularoutput"
     echo "Does lindoutput fit regular expression modified regularoutput?"
-    python2 "${var%.*}.py" "$lindoutput" "$regularoutput"
+    if [ $(python2 "${var%.*}.py" "$lindoutput" "$regularoutput") != 0 ]; then
+        error=1
+    fi
 done
 
 rm ./test_out/*
 lindfs deltree "/tests/test_cases/test_out"
+exit $error
