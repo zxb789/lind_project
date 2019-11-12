@@ -13,7 +13,6 @@ nacl_repy
 repy/
 misc/
 tools/
-build/
 testing/
 _bad_scm/
 breakpad/
@@ -49,6 +48,7 @@ nacl/
 /test_cases/dash/src/bltin/.dirstamp
 !/test_cases/*.c
 !/test_cases/*.s
+build/ # Put this to unbreak Apache
 
 # workspaces
 /build/
