@@ -1,3 +1,4 @@
+mkdir -p test_out
 deterministicinput=()
 nondeterministicinput=()
 declare -n arglist='nondeterministicinput'
@@ -27,9 +28,9 @@ for var in "${totalarray[@]}"; do
 done
 lindfs cp $PWD/test_out/
 
-echo "Executing nondeterministic test cases"
+echo "Executing deterministic test cases"
 echo "------------------------------------------------------------------"
-for var in "${nondeterministicinput[@]}"; do
+for var in "${deterministicinput[@]}"; do
     nexefile="${var%.*}.nexe";
     varnonexe="${var%.*}";
     exec 3>&2
@@ -46,8 +47,8 @@ for var in "${nondeterministicinput[@]}"; do
     [[ "$lindoutput" = "$regularoutput" ]] && echo TEST PASSED || echo TEST FAILED
 done
 echo "------------------------------------------------------------------"
-echo "Executing deterministic test cases"
-for var in "${deterministicinput[@]}"; do
+echo "Executing nondeterministic test cases"
+for var in "${nondeterministicinput[@]}"; do
     nexefile="${var%.*}.nexe";
     varnonexe="${var%.*}";
     exec 3>&2
