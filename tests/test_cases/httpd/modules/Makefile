@@ -1,8 +1,8 @@
-top_srcdir   = /home/jp/lind_project/test_cases/httpd
-top_builddir = /home/jp/lind_project/test_cases/httpd
-srcdir       = /home/jp/lind_project/test_cases/httpd/modules
-builddir     = /home/jp/lind_project/test_cases/httpd/modules
-VPATH        = /home/jp/lind_project/test_cases/httpd/modules
+top_srcdir   = /home/lind/lind_project/test_cases/httpd
+top_builddir = /home/lind/lind_project/test_cases/httpd
+srcdir       = /home/lind/lind_project/test_cases/httpd/modules
+builddir     = /home/lind/lind_project/test_cases/httpd/modules
+VPATH        = /home/lind/lind_project/test_cases/httpd/modules
 
 SUBDIRS = $(MODULE_DIRS)
 CLEAN_SUBDIRS = $(MODULE_CLEANDIRS)

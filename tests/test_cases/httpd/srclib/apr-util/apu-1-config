@@ -21,11 +21,11 @@
 APRUTIL_MAJOR_VERSION="1"
 APRUTIL_DOTTED_VERSION="1.6.1"
 
-prefix="/home/jp/lind_project/lind/repy/repy"
-exec_prefix="/home/jp/lind_project/lind/repy/repy"
-bindir="/home/jp/lind_project/lind/repy/repy/bin"
-libdir="/home/jp/lind_project/lind/repy/repy/lib"
-includedir="/home/jp/lind_project/lind/repy/repy/include"
+prefix="/home/lind/lind_project/lind/repy/repy"
+exec_prefix="/home/lind/lind_project/lind/repy/repy"
+bindir="/home/lind/lind_project/lind/repy/repy/bin"
+libdir="/home/lind/lind_project/lind/repy/repy/lib"
+includedir="/home/lind/lind_project/lind/repy/repy/include"
 
 LIBS=""
 INCLUDES=""
@@ -35,8 +35,8 @@ DBM_LIBS="  "
 
 APRUTIL_LIBNAME="aprutil-${APRUTIL_MAJOR_VERSION}"
 
-APU_SOURCE_DIR="/home/jp/lind_project/test_cases/httpd/srclib/apr-util"
-APU_BUILD_DIR="/home/jp/lind_project/test_cases/httpd/srclib/apr-util"
+APU_SOURCE_DIR="/home/lind/lind_project/test_cases/httpd/srclib/apr-util"
+APU_BUILD_DIR="/home/lind/lind_project/test_cases/httpd/srclib/apr-util"
 APR_XML_EXPAT_OLD="@APR_XML_EXPAT_OLD@"
 APU_DB_VERSION="0"
 

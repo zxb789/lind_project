@@ -19,9 +19,9 @@
 # This file is generated from envvars-std.in
 #
 if test "x$REPLACE_WITH_YOUR_SHLIBPATH_VAR" != "x" ; then
-  REPLACE_WITH_YOUR_SHLIBPATH_VAR="/home/jp/lind_project/lind/repy/repy/lib:$REPLACE_WITH_YOUR_SHLIBPATH_VAR"
+  REPLACE_WITH_YOUR_SHLIBPATH_VAR="/home/lind/lind_project/lind/repy/repy/lib:$REPLACE_WITH_YOUR_SHLIBPATH_VAR"
 else
-  REPLACE_WITH_YOUR_SHLIBPATH_VAR="/home/jp/lind_project/lind/repy/repy/lib"
+  REPLACE_WITH_YOUR_SHLIBPATH_VAR="/home/lind/lind_project/lind/repy/repy/lib"
 fi
 export REPLACE_WITH_YOUR_SHLIBPATH_VAR
 #

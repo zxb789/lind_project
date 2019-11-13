@@ -17,7 +17,7 @@ old_library='libaprutil-1.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/jp/lind_project/lind/repy/repy/lib/libapr-1.la -lrt -lcrypt -ldl'
+dependency_libs=' /home/lind/lind_project/lind/repy/repy/lib/libapr-1.la -lrt -lcrypt -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/jp/lind_project/lind/repy/repy/lib'
+libdir='/home/lind/lind_project/lind/repy/repy/lib'

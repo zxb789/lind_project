@@ -17,7 +17,7 @@ old_library='libmod_brotli.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/jp/lind_project/lind/repy/repy/lib /home/jp/lind_project/lind/repy/repy/lib/libbrotlienc.la -lm /home/jp/lind_project/lind/repy/repy/lib/libbrotlicommon.la'
+dependency_libs=' -L/home/lind/lind_project/lind/repy/repy/lib /home/lind/lind_project/lind/repy/repy/lib/libbrotlienc.la -lm /home/lind/lind_project/lind/repy/repy/lib/libbrotlicommon.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/jp/lind_project/lind/repy/repy/modules'
+libdir='/home/lind/lind_project/lind/repy/repy/modules'

@@ -1,8 +1,8 @@
-top_srcdir   = /home/jp/lind_project/test_cases/httpd
-top_builddir = /home/jp/lind_project/test_cases/httpd
-srcdir       = /home/jp/lind_project/test_cases/httpd/test
-builddir     = /home/jp/lind_project/test_cases/httpd/test
-VPATH        = /home/jp/lind_project/test_cases/httpd/test
+top_srcdir   = /home/lind/lind_project/test_cases/httpd
+top_builddir = /home/lind/lind_project/test_cases/httpd
+srcdir       = /home/lind/lind_project/test_cases/httpd/test
+builddir     = /home/lind/lind_project/test_cases/httpd/test
+VPATH        = /home/lind/lind_project/test_cases/httpd/test
 
 # no targets: we don't want to build anything by default. if you want the
 # test programs, then "make test"

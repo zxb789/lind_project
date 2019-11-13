@@ -1,8 +1,8 @@
-top_srcdir   = /home/jp/lind_project/test_cases/httpd
-top_builddir = /home/jp/lind_project/test_cases/httpd
-srcdir       = /home/jp/lind_project/test_cases/httpd
-builddir     = /home/jp/lind_project/test_cases/httpd
-VPATH        = /home/jp/lind_project/test_cases/httpd
+top_srcdir   = /home/lind/lind_project/test_cases/httpd
+top_builddir = /home/lind/lind_project/test_cases/httpd
+srcdir       = /home/lind/lind_project/test_cases/httpd
+builddir     = /home/lind/lind_project/test_cases/httpd
+VPATH        = /home/lind/lind_project/test_cases/httpd
 
 SUBDIRS = srclib os server modules support
 CLEAN_SUBDIRS = test

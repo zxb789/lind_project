@@ -1,8 +1,8 @@
-top_srcdir   = /home/jp/lind_project/test_cases/httpd
-top_builddir = /home/jp/lind_project/test_cases/httpd
-srcdir       = /home/jp/lind_project/test_cases/httpd/support
-builddir     = /home/jp/lind_project/test_cases/httpd/support
-VPATH        = /home/jp/lind_project/test_cases/httpd/support
+top_srcdir   = /home/lind/lind_project/test_cases/httpd
+top_builddir = /home/lind/lind_project/test_cases/httpd
+srcdir       = /home/lind/lind_project/test_cases/httpd/support
+builddir     = /home/lind/lind_project/test_cases/httpd/support
+VPATH        = /home/lind/lind_project/test_cases/httpd/support
 DISTCLEAN_TARGETS = apxs apachectl dbmmanage log_server_status \
 	logresolve.pl phf_abuse_log.cgi split-logfile envvars-std
 

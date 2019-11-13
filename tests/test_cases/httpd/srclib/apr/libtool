@@ -100,7 +100,7 @@ EGREP="/usr/bin/grep -E"
 FGREP="/usr/bin/grep -F"
 
 # A BSD- or MS-compatible name lister.
-NM="/home/jp/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/bin/x86_64-nacl-nm -B"
+NM="/home/lind/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/bin/x86_64-nacl-nm -B"
 
 # Whether we need soft or hard links.
 LN_S="ln -s"
@@ -288,7 +288,7 @@ finish_eval=""
 hardcode_into_libs=no
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/home/jp/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/lib/gcc/x86_64-nacl/4.4.3 /home/jp/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/lib/gcc /home/jp/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/x86_64-nacl/lib64 /home/jp/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/x86_64-nacl/lib "
+sys_lib_search_path_spec="/home/lind/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/lib/gcc/x86_64-nacl/4.4.3 /home/lind/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/lib/gcc /home/lind/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/x86_64-nacl/lib64 /home/lind/lind_project/lind/repy/sdk/toolchain/linux_x86_glibc/x86_64-nacl/lib "
 
 # Detected run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib /usr/lib"

@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/jp/lind_project/lind/repy/repy/lib'
+libdir='/home/lind/lind_project/lind/repy/repy/lib'

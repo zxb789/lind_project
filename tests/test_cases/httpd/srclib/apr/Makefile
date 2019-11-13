@@ -1,8 +1,8 @@
 
 srcdir=.
 
-top_srcdir=/home/jp/lind_project/test_cases/httpd/srclib/apr
-top_blddir=/home/jp/lind_project/test_cases/httpd/srclib/apr
+top_srcdir=/home/lind/lind_project/test_cases/httpd/srclib/apr
+top_blddir=/home/lind/lind_project/test_cases/httpd/srclib/apr
 
 #
 # APR (Apache Portable Runtime) library Makefile.
@@ -41,8 +41,8 @@ TARGETS = $(TARGET_LIB) apr.exp apr-config.out build/apr_rules.out
 LT_VERSION = -version-info 6:5:6
 
 # bring in rules.mk for standard functionality
-include /home/jp/lind_project/test_cases/httpd/srclib/apr/build/apr_rules.mk
-include /home/jp/lind_project/test_cases/httpd/srclib/apr/build-outputs.mk
+include /home/lind/lind_project/test_cases/httpd/srclib/apr/build/apr_rules.mk
+include /home/lind/lind_project/test_cases/httpd/srclib/apr/build-outputs.mk
 
 CLEAN_TARGETS = apr-config.out apr.exp exports.c export_vars.c .make.dirs \
 	build/apr_rules.out
@@ -56,12 +56,12 @@ EXTRACLEAN_TARGETS = configure aclocal.m4 include/arch/unix/apr_private.h.in \
 	build/argz.m4 build/libtool.m4 build/ltoptions.m4 \
 	build/ltsugar.m4 build/ltversion.m4 build/lt~obsolete.m4
 
-prefix=/home/jp/lind_project/lind/repy/repy
-exec_prefix=/home/jp/lind_project/lind/repy/repy
-bindir=/home/jp/lind_project/lind/repy/repy/bin
-libdir=/home/jp/lind_project/lind/repy/repy/lib
-includedir=/home/jp/lind_project/lind/repy/repy/include
-datadir=/home/jp/lind_project/lind/repy/repy
+prefix=/home/lind/lind_project/lind/repy/repy
+exec_prefix=/home/lind/lind_project/lind/repy/repy
+bindir=/home/lind/lind_project/lind/repy/repy/bin
+libdir=/home/lind/lind_project/lind/repy/repy/lib
+includedir=/home/lind/lind_project/lind/repy/repy/include
+datadir=/home/lind/lind_project/lind/repy/repy
 installbuilddir=${prefix}/build
 
 # Create apr-config script suitable for the install tree

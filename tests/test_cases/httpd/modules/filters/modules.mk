@@ -23,5 +23,5 @@ mod_brotli.la: mod_brotli.slo
 DISTCLEAN_TARGETS = modules.mk
 static = 
 shared =  mod_buffer.la mod_ratelimit.la mod_reqtimeout.la mod_ext_filter.la mod_request.la mod_include.la mod_filter.la mod_substitute.la mod_sed.la mod_deflate.la mod_brotli.la
-MOD_CFLAGS = -I/home/jp/lind_project/lind/repy/repy/include
-MOD_INCLUDES = -I/home/jp/lind_project/lind/repy/repy/include
+MOD_CFLAGS = -I/home/lind/lind_project/lind/repy/repy/include
+MOD_INCLUDES = -I/home/lind/lind_project/lind/repy/repy/include

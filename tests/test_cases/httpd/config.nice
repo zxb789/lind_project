@@ -7,14 +7,14 @@ CFLAGS="-DPTHREAD_MUTEX_RECURSIVE=1 -g3 -fPIC"; export CFLAGS
 LDFLAGS="-g3 -fPIC"; export LDFLAGS
 "./configure" \
 "--with-included-apr" \
-"--with-libxml2=/home/jp/lind_project/lind/repy/repy/lib" \
-"--with-brotli=/home/jp/lind_project/lind/repy/repy" \
-"--with-pcre=/home/jp/lind_project/lind/repy/repy" \
-"--with-z=/home/jp/lind_project/lind/repy/repy" \
+"--with-libxml2=/home/lind/lind_project/lind/repy/repy/lib" \
+"--with-brotli=/home/lind/lind_project/lind/repy/repy" \
+"--with-pcre=/home/lind/lind_project/lind/repy/repy" \
+"--with-z=/home/lind/lind_project/lind/repy/repy" \
 "--host=x86_64-nacl" \
 "--enable-mods-shared=most" \
-"--exec-prefix=/home/jp/lind_project/lind/repy/repy" \
-"--prefix=/home/jp/lind_project/lind/repy/repy" \
+"--exec-prefix=/home/lind/lind_project/lind/repy/repy" \
+"--prefix=/home/lind/lind_project/lind/repy/repy" \
 "ac_cv_file__dev_zero=yes" \
 "ac_cv_func_setpgrp_void=yes" \
 "apr_cv_tcp_nodelay_with_cork=yes" \

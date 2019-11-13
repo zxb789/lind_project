@@ -42,11 +42,11 @@ ARGV="$@"
 # --------------------                              --------------------
 # 
 # the path to your httpd binary, including options if necessary
-HTTPD='/home/jp/lind_project/lind/repy/repy/bin/httpd'
+HTTPD='/home/lind/lind_project/lind/repy/repy/bin/httpd'
 #
 # pick up any necessary environment variables
-if test -f /home/jp/lind_project/lind/repy/repy/bin/envvars; then
-  . /home/jp/lind_project/lind/repy/repy/bin/envvars
+if test -f /home/lind/lind_project/lind/repy/repy/bin/envvars; then
+  . /home/lind/lind_project/lind/repy/repy/bin/envvars
 fi
 #
 # a command that outputs a formatted text version of the HTML at the

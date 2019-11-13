@@ -1,8 +1,8 @@
-top_srcdir   = /home/jp/lind_project/test_cases/httpd
-top_builddir = /home/jp/lind_project/test_cases/httpd
-srcdir       = /home/jp/lind_project/test_cases/httpd/server
-builddir     = /home/jp/lind_project/test_cases/httpd/server
-VPATH        = /home/jp/lind_project/test_cases/httpd/server
+top_srcdir   = /home/lind/lind_project/test_cases/httpd
+top_builddir = /home/lind/lind_project/test_cases/httpd
+srcdir       = /home/lind/lind_project/test_cases/httpd/server
+builddir     = /home/lind/lind_project/test_cases/httpd/server
+VPATH        = /home/lind/lind_project/test_cases/httpd/server
 
 CLEAN_TARGETS = ApacheCoreOS2.def httpd.exp export_files \
 	exports.c export_vars.h
