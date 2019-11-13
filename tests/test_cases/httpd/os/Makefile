@@ -1,8 +1,8 @@
-top_srcdir   = /home/neel/lind_project/tests/test_cases/httpd
-top_builddir = /home/neel/lind_project/tests/test_cases/httpd
-srcdir       = /home/neel/lind_project/tests/test_cases/httpd/os
-builddir     = /home/neel/lind_project/tests/test_cases/httpd/os
-VPATH        = /home/neel/lind_project/tests/test_cases/httpd/os
+top_srcdir   = /home/lind/lind_project/tests/test_cases/httpd
+top_builddir = /home/lind/lind_project/tests/test_cases/httpd
+srcdir       = /home/lind/lind_project/tests/test_cases/httpd/os
+builddir     = /home/lind/lind_project/tests/test_cases/httpd/os
+VPATH        = /home/lind/lind_project/tests/test_cases/httpd/os
 
 SUBDIRS = $(OS_DIR)
 

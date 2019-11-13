@@ -35,8 +35,8 @@ DBM_LIBS="  "
 
 APRUTIL_LIBNAME="aprutil-${APRUTIL_MAJOR_VERSION}"
 
-APU_SOURCE_DIR="/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util"
-APU_BUILD_DIR="/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util"
+APU_SOURCE_DIR="/home/lind/lind_project/tests/test_cases/httpd/srclib/apr-util"
+APU_BUILD_DIR="/home/lind/lind_project/tests/test_cases/httpd/srclib/apr-util"
 APR_XML_EXPAT_OLD="@APR_XML_EXPAT_OLD@"
 APU_DB_VERSION="0"
 

@@ -53,7 +53,7 @@ PROGRAMS = $(TESTALL_COMPONENTS) $(STDTEST_PORTABLE) $(STDTEST_NONPORTABLE) \
 TARGETS = $(PROGRAMS)
 
 # bring in rules.mk for standard functionality
-include /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/build/apr_rules.mk
+include /home/lind/lind_project/tests/test_cases/httpd/srclib/apr/build/apr_rules.mk
 
 LOCAL_LIBS=../libapr-${APR_MAJOR_VERSION}.la
 

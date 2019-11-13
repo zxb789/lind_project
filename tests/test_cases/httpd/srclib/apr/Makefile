@@ -1,8 +1,8 @@
 
 srcdir=.
 
-top_srcdir=/home/neel/lind_project/tests/test_cases/httpd/srclib/apr
-top_blddir=/home/neel/lind_project/tests/test_cases/httpd/srclib/apr
+top_srcdir=/home/lind/lind_project/tests/test_cases/httpd/srclib/apr
+top_blddir=/home/lind/lind_project/tests/test_cases/httpd/srclib/apr
 
 #
 # APR (Apache Portable Runtime) library Makefile.
@@ -41,8 +41,8 @@ TARGETS = $(TARGET_LIB) apr.exp apr-config.out build/apr_rules.out
 LT_VERSION = -version-info 6:5:6
 
 # bring in rules.mk for standard functionality
-include /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/build/apr_rules.mk
-include /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/build-outputs.mk
+include /home/lind/lind_project/tests/test_cases/httpd/srclib/apr/build/apr_rules.mk
+include /home/lind/lind_project/tests/test_cases/httpd/srclib/apr/build-outputs.mk
 
 CLEAN_TARGETS = apr-config.out apr.exp exports.c export_vars.c .make.dirs \
 	build/apr_rules.out

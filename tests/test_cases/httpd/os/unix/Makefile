@@ -1,8 +1,8 @@
-top_srcdir   = /home/neel/lind_project/tests/test_cases/httpd
-top_builddir = /home/neel/lind_project/tests/test_cases/httpd
-srcdir       = /home/neel/lind_project/tests/test_cases/httpd/os/unix
-builddir     = /home/neel/lind_project/tests/test_cases/httpd/os/unix
-VPATH        = /home/neel/lind_project/tests/test_cases/httpd/os/unix
+top_srcdir   = /home/lind/lind_project/tests/test_cases/httpd
+top_builddir = /home/lind/lind_project/tests/test_cases/httpd
+srcdir       = /home/lind/lind_project/tests/test_cases/httpd/os/unix
+builddir     = /home/lind/lind_project/tests/test_cases/httpd/os/unix
+VPATH        = /home/lind/lind_project/tests/test_cases/httpd/os/unix
 
 LTLIBRARY_NAME    = libos.la
 LTLIBRARY_SOURCES = unixd.c
