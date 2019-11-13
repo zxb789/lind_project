@@ -5,7 +5,7 @@
 CC="x86_64-nacl-gcc"; export CC
 CFLAGS="-DPTHREAD_MUTEX_RECURSIVE=1 -g3 -fPIC"; export CFLAGS
 LDFLAGS="-g3 -fPIC"; export LDFLAGS
-"/home/lind/lind_project/test_cases/httpd/srclib/apr-util/configure" \
+"/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/configure" \
 "--disable-option-checking" \
 "--with-included-apr" \
 "--with-libxml2=/home/lind/lind_project/lind/repy/repy/lib" \
@@ -27,7 +27,7 @@ LDFLAGS="-g3 -fPIC"; export LDFLAGS
 "CFLAGS=-DPTHREAD_MUTEX_RECURSIVE=1 -g3 -fPIC" \
 "LDFLAGS=-g3 -fPIC" \
 "--cache-file=/dev/null" \
-"--srcdir=/home/lind/lind_project/test_cases/httpd/srclib/apr-util" \
+"--srcdir=/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util" \
 "--with-apr=../apr" \
 "--prefix=/home/lind/lind_project/lind/repy/repy" \
 "--exec-prefix=/home/lind/lind_project/lind/repy/repy" \

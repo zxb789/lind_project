@@ -1,8 +1,8 @@
-top_srcdir   = /home/lind/lind_project/test_cases/httpd
-top_builddir = /home/lind/lind_project/test_cases/httpd
-srcdir       = /home/lind/lind_project/test_cases/httpd/modules/md
-builddir     = /home/lind/lind_project/test_cases/httpd/modules/md
-VPATH        = /home/lind/lind_project/test_cases/httpd/modules/md
+top_srcdir   = /home/neel/lind_project/tests/test_cases/httpd
+top_builddir = /home/neel/lind_project/tests/test_cases/httpd
+srcdir       = /home/neel/lind_project/tests/test_cases/httpd/modules/md
+builddir     = /home/neel/lind_project/tests/test_cases/httpd/modules/md
+VPATH        = /home/neel/lind_project/tests/test_cases/httpd/modules/md
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
 # this work for additional information regarding copyright ownership.

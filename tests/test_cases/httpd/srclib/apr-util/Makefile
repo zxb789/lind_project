@@ -10,9 +10,9 @@ APRUTIL_DOTTED_VERSION=1.6.1
 srcdir = .
 
 
-INCLUDES = -I/home/lind/lind_project/test_cases/httpd/srclib/apr-util/include -I/home/lind/lind_project/test_cases/httpd/srclib/apr-util/include/private  -I/home/lind/lind_project/test_cases/httpd/srclib/apr/include  
+INCLUDES = -I/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/include -I/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/include/private  -I/home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include  
 APRUTIL_LDFLAGS = 
-APRUTIL_LIBS =  /home/lind/lind_project/test_cases/httpd/srclib/apr/libapr-1.la -lrt -lcrypt  -ldl
+APRUTIL_LIBS =  /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/libapr-1.la -lrt -lcrypt  -ldl
 
 TARGET_LIB = libaprutil-${APRUTIL_MAJOR_VERSION}.la
 INSTALL_SUBDIRS = 
@@ -47,8 +47,8 @@ LDADD_crypto_commoncrypto =
 TARGETS = $(TARGET_LIB) aprutil.exp apu-config.out $(APU_MODULES)
 
 # bring in rules.mk for standard functionality
-include /home/lind/lind_project/test_cases/httpd/srclib/apr-util/build/rules.mk
-include /home/lind/lind_project/test_cases/httpd/srclib/apr-util/build-outputs.mk
+include /home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/build/rules.mk
+include /home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/build-outputs.mk
 
 CLEAN_SUBDIRS = test 
 
@@ -68,8 +68,8 @@ exec_prefix=/home/lind/lind_project/lind/repy/repy
 bindir=/home/lind/lind_project/lind/repy/repy/bin
 libdir=/home/lind/lind_project/lind/repy/repy/lib
 includedir=/home/lind/lind_project/lind/repy/repy/include
-top_srcdir=/home/lind/lind_project/test_cases/httpd/srclib/apr-util
-top_blddir=/home/lind/lind_project/test_cases/httpd/srclib/apr-util
+top_srcdir=/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util
+top_blddir=/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util
 
 # Create apu-config script suitable for the install tree
 apu-config.out: $(APU_CONFIG)

@@ -10,7 +10,7 @@ srcdir = .
 #   programs such as sockperf, that have to be invoked in a special sequence
 #   or with special parameters
 
-INCLUDES = -I/home/lind/lind_project/test_cases/httpd/srclib/apr-util/include -I/home/lind/lind_project/test_cases/httpd/srclib/apr-util/include/private  -I/home/lind/lind_project/test_cases/httpd/srclib/apr/include  
+INCLUDES = -I/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/include -I/home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/include/private  -I/home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include  
 
 STDTEST_PORTABLE = dbd testall
 
@@ -28,8 +28,8 @@ LOCAL_LIBS = ../libaprutil-${APRUTIL_MAJOR_VERSION}1.la
 CLEAN_TARGETS = manyfile.bin testfile.txt data/sqlite*.db
 
 # bring in rules.mk for standard functionality
-include /home/lind/lind_project/test_cases/httpd/srclib/apr-util/build/rules.mk
-APRUTIL_LIBS =  /home/lind/lind_project/test_cases/httpd/srclib/apr/libapr-1.la -lrt -lcrypt  -ldl
+include /home/neel/lind_project/tests/test_cases/httpd/srclib/apr-util/build/rules.mk
+APRUTIL_LIBS =  /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/libapr-1.la -lrt -lcrypt  -ldl
 APRUTIL_LDFLAGS = $(ALL_LDFLAGS) -no-install 
 
 # link programs using -no-install to get real executables not

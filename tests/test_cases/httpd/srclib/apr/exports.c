@@ -54,7 +54,7 @@
 const void *ap_ugly_hack = NULL;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_allocator.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_allocator.h
  */
 const void *ap_hack_apr_allocator_create = (const void *)apr_allocator_create;
 const void *ap_hack_apr_allocator_destroy = (const void *)apr_allocator_destroy;
@@ -70,7 +70,7 @@ const void *ap_hack_apr_allocator_mutex_get = (const void *)apr_allocator_mutex_
 #endif /* APR_HAS_THREADS */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_atomic.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_atomic.h
  */
 const void *ap_hack_apr_atomic_init = (const void *)apr_atomic_init;
 const void *ap_hack_apr_atomic_read32 = (const void *)apr_atomic_read32;
@@ -85,7 +85,7 @@ const void *ap_hack_apr_atomic_casptr = (const void *)apr_atomic_casptr;
 const void *ap_hack_apr_atomic_xchgptr = (const void *)apr_atomic_xchgptr;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_cstr.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_cstr.h
  */
 const void *ap_hack_apr_cstr_split = (const void *)apr_cstr_split;
 const void *ap_hack_apr_cstr_split_append = (const void *)apr_cstr_split_append;
@@ -107,7 +107,7 @@ const void *ap_hack_apr_cstr_atoui = (const void *)apr_cstr_atoui;
 const void *ap_hack_apr_cstr_skip_prefix = (const void *)apr_cstr_skip_prefix;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_dso.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_dso.h
  */
 #if APR_HAS_DSO || defined(DOXYGEN)
 const void *ap_hack_apr_dso_load = (const void *)apr_dso_load;
@@ -117,19 +117,19 @@ const void *ap_hack_apr_dso_error = (const void *)apr_dso_error;
 #endif /* APR_HAS_DSO */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_env.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_env.h
  */
 const void *ap_hack_apr_env_get = (const void *)apr_env_get;
 const void *ap_hack_apr_env_set = (const void *)apr_env_set;
 const void *ap_hack_apr_env_delete = (const void *)apr_env_delete;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_errno.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_errno.h
  */
 const void *ap_hack_apr_strerror = (const void *)apr_strerror;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_escape.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_escape.h
  */
 const void *ap_hack_apr_escape_shell = (const void *)apr_escape_shell;
 const void *ap_hack_apr_pescape_shell = (const void *)apr_pescape_shell;
@@ -155,7 +155,7 @@ const void *ap_hack_apr_escape_ldap = (const void *)apr_escape_ldap;
 const void *ap_hack_apr_pescape_ldap = (const void *)apr_pescape_ldap;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_file_info.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_file_info.h
  */
 const void *ap_hack_apr_stat = (const void *)apr_stat;
 const void *ap_hack_apr_dir_open = (const void *)apr_dir_open;
@@ -171,7 +171,7 @@ const void *ap_hack_apr_filepath_set = (const void *)apr_filepath_set;
 const void *ap_hack_apr_filepath_encoding = (const void *)apr_filepath_encoding;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_file_io.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_file_io.h
  */
 const void *ap_hack_apr_file_open = (const void *)apr_file_open;
 const void *ap_hack_apr_file_close = (const void *)apr_file_close;
@@ -235,14 +235,14 @@ const void *ap_hack_apr_file_mktemp = (const void *)apr_file_mktemp;
 const void *ap_hack_apr_temp_dir_get = (const void *)apr_temp_dir_get;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_fnmatch.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_fnmatch.h
  */
 const void *ap_hack_apr_fnmatch = (const void *)apr_fnmatch;
 const void *ap_hack_apr_fnmatch_test = (const void *)apr_fnmatch_test;
 const void *ap_hack_apr_match_glob = (const void *)apr_match_glob;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_general.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_general.h
  */
 const void *ap_hack_apr_initialize = (const void *)apr_initialize;
 const void *ap_hack_apr_app_initialize = (const void *)apr_app_initialize;
@@ -253,14 +253,14 @@ const void *ap_hack_apr_generate_random_bytes = (const void *)apr_generate_rando
 #endif
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_getopt.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_getopt.h
  */
 const void *ap_hack_apr_getopt_init = (const void *)apr_getopt_init;
 const void *ap_hack_apr_getopt = (const void *)apr_getopt;
 const void *ap_hack_apr_getopt_long = (const void *)apr_getopt_long;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_global_mutex.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_global_mutex.h
  */
 #if !APR_PROC_MUTEX_IS_GLOBAL || defined(DOXYGEN)
 const void *ap_hack_apr_global_mutex_create = (const void *)apr_global_mutex_create;
@@ -277,7 +277,7 @@ const void *ap_hack_apr_global_mutex_pool_get = (const void *)apr_global_mutex_p
 #endif
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_hash.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_hash.h
  */
 const void *ap_hack_apr_hashfunc_default = (const void *)apr_hashfunc_default;
 const void *ap_hack_apr_hash_make = (const void *)apr_hash_make;
@@ -299,14 +299,14 @@ const void *ap_hack_apr_hash_do = (const void *)apr_hash_do;
 const void *ap_hack_apr_hash_pool_get = (const void *)apr_hash_pool_get;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_lib.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_lib.h
  */
 const void *ap_hack_apr_filepath_name_get = (const void *)apr_filepath_name_get;
 const void *ap_hack_apr_vformatter = (const void *)apr_vformatter;
 const void *ap_hack_apr_password_get = (const void *)apr_password_get;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_mmap.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_mmap.h
  */
 #if APR_HAS_MMAP || defined(DOXYGEN)
 const void *ap_hack_apr_mmap_create = (const void *)apr_mmap_create;
@@ -316,7 +316,7 @@ const void *ap_hack_apr_mmap_offset = (const void *)apr_mmap_offset;
 #endif /* APR_HAS_MMAP */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_network_io.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_network_io.h
  */
 const void *ap_hack_apr_socket_create = (const void *)apr_socket_create;
 const void *ap_hack_apr_socket_shutdown = (const void *)apr_socket_shutdown;
@@ -366,7 +366,7 @@ const void *ap_hack_apr_mcast_loopback = (const void *)apr_mcast_loopback;
 const void *ap_hack_apr_mcast_interface = (const void *)apr_mcast_interface;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_poll.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_poll.h
  */
 const void *ap_hack_apr_pollset_create = (const void *)apr_pollset_create;
 const void *ap_hack_apr_pollset_create_ex = (const void *)apr_pollset_create_ex;
@@ -387,7 +387,7 @@ const void *ap_hack_apr_pollcb_wakeup = (const void *)apr_pollcb_wakeup;
 const void *ap_hack_apr_pollcb_method_name = (const void *)apr_pollcb_method_name;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_pools.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_pools.h
  */
 const void *ap_hack_apr_pool_initialize = (const void *)apr_pool_initialize;
 const void *ap_hack_apr_pool_terminate = (const void *)apr_pool_terminate;
@@ -442,7 +442,7 @@ const void *ap_hack_apr_pool_lock = (const void *)apr_pool_lock;
 #endif /* APR_POOL_DEBUG or DOXYGEN */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_portable.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_portable.h
  */
 #if APR_PROC_MUTEX_IS_GLOBAL || defined(DOXYGEN)
 #else
@@ -486,7 +486,7 @@ const void *ap_hack_apr_os_default_encoding = (const void *)apr_os_default_encod
 const void *ap_hack_apr_os_locale_encoding = (const void *)apr_os_locale_encoding;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_proc_mutex.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_proc_mutex.h
  */
 const void *ap_hack_apr_proc_mutex_create = (const void *)apr_proc_mutex_create;
 const void *ap_hack_apr_proc_mutex_child_init = (const void *)apr_proc_mutex_child_init;
@@ -502,7 +502,7 @@ const void *ap_hack_apr_proc_mutex_defname = (const void *)apr_proc_mutex_defnam
 const void *ap_hack_apr_proc_mutex_pool_get = (const void *)apr_proc_mutex_pool_get;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_random.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_random.h
  */
 const void *ap_hack_apr_crypto_sha256_new = (const void *)apr_crypto_sha256_new;
 const void *ap_hack_apr_random_init = (const void *)apr_random_init;
@@ -516,7 +516,7 @@ const void *ap_hack_apr_random_insecure_ready = (const void *)apr_random_insecur
 const void *ap_hack_apr_random_after_fork = (const void *)apr_random_after_fork;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_shm.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_shm.h
  */
 const void *ap_hack_apr_shm_create = (const void *)apr_shm_create;
 const void *ap_hack_apr_shm_create_ex = (const void *)apr_shm_create_ex;
@@ -531,7 +531,7 @@ const void *ap_hack_apr_shm_size_get = (const void *)apr_shm_size_get;
 const void *ap_hack_apr_shm_pool_get = (const void *)apr_shm_pool_get;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_signal.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_signal.h
  */
 #if APR_HAVE_SIGACTION || defined(DOXYGEN)
 const void *ap_hack_apr_signal = (const void *)apr_signal;
@@ -542,7 +542,7 @@ const void *ap_hack_apr_signal_block = (const void *)apr_signal_block;
 const void *ap_hack_apr_signal_unblock = (const void *)apr_signal_unblock;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_skiplist.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_skiplist.h
  */
 const void *ap_hack_apr_skiplist_alloc = (const void *)apr_skiplist_alloc;
 const void *ap_hack_apr_skiplist_free = (const void *)apr_skiplist_free;
@@ -577,7 +577,7 @@ const void *ap_hack_apr_skiplist_set_preheight = (const void *)apr_skiplist_set_
 const void *ap_hack_apr_skiplist_merge = (const void *)apr_skiplist_merge;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_strings.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_strings.h
  */
 const void *ap_hack_apr_strnatcmp = (const void *)apr_strnatcmp;
 const void *ap_hack_apr_strnatcasecmp = (const void *)apr_strnatcasecmp;
@@ -604,7 +604,7 @@ const void *ap_hack_apr_atoi64 = (const void *)apr_atoi64;
 const void *ap_hack_apr_strfsize = (const void *)apr_strfsize;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_tables.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_tables.h
  */
 const void *ap_hack_apr_table_elts = (const void *)apr_table_elts;
 const void *ap_hack_apr_is_empty_table = (const void *)apr_is_empty_table;
@@ -638,7 +638,7 @@ const void *ap_hack_apr_table_overlap = (const void *)apr_table_overlap;
 const void *ap_hack_apr_table_compress = (const void *)apr_table_compress;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_thread_cond.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_thread_cond.h
  */
 #if APR_HAS_THREADS || defined(DOXYGEN)
 const void *ap_hack_apr_thread_cond_create = (const void *)apr_thread_cond_create;
@@ -651,7 +651,7 @@ const void *ap_hack_apr_thread_cond_pool_get = (const void *)apr_thread_cond_poo
 #endif /* APR_HAS_THREADS */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_thread_mutex.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_thread_mutex.h
  */
 #if APR_HAS_THREADS || defined(DOXYGEN)
 const void *ap_hack_apr_thread_mutex_create = (const void *)apr_thread_mutex_create;
@@ -663,7 +663,7 @@ const void *ap_hack_apr_thread_mutex_pool_get = (const void *)apr_thread_mutex_p
 #endif /* APR_HAS_THREADS */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_thread_proc.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_thread_proc.h
  */
 #if APR_HAS_THREADS
 const void *ap_hack_apr_threadattr_create = (const void *)apr_threadattr_create;
@@ -727,7 +727,7 @@ const void *ap_hack_apr_thread_pool_get = (const void *)apr_thread_pool_get;
 #endif /* APR_HAS_THREADS */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_thread_rwlock.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_thread_rwlock.h
  */
 #if APR_HAS_THREADS
 const void *ap_hack_apr_thread_rwlock_create = (const void *)apr_thread_rwlock_create;
@@ -741,7 +741,7 @@ const void *ap_hack_apr_thread_rwlock_pool_get = (const void *)apr_thread_rwlock
 #endif  /* APR_HAS_THREADS */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_time.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_time.h
  */
 const void *ap_hack_apr_time_now = (const void *)apr_time_now;
 const void *ap_hack_apr_time_ansi_put = (const void *)apr_time_ansi_put;
@@ -757,7 +757,7 @@ const void *ap_hack_apr_strftime = (const void *)apr_strftime;
 const void *ap_hack_apr_time_clock_hires = (const void *)apr_time_clock_hires;
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_user.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_user.h
  */
 #if APR_HAS_USER 
 const void *ap_hack_apr_uid_current = (const void *)apr_uid_current;
@@ -777,7 +777,7 @@ const void *ap_hack_apr_gid_compare = (const void *)apr_gid_compare;
 #endif  /* ! APR_HAS_USER */
 
 /*
- * /home/lind/lind_project/test_cases/httpd/srclib/apr/include/apr_version.h
+ * /home/neel/lind_project/tests/test_cases/httpd/srclib/apr/include/apr_version.h
  */
 #ifndef APR_VERSION_ONLY
 const void *ap_hack_apr_version = (const void *)apr_version;
