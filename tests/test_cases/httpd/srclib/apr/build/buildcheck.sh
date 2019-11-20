@@ -4,7 +4,7 @@ echo "buildconf: checking installation..."
 res=0
 
 # any python
-python=`build/PrintPath python2`
+python=/usr/bin/python2
 if test -z "$python"; then
   echo "buildconf: python2 not found."
   echo "           You need python2 installed"
