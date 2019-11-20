@@ -58,12 +58,12 @@ find . -type f -name '*build-outputs.mk' -delete
 	apr_cv_mutex_robust_shared="no" \
 	apr_cv_mutex_recursive="yes"
 
-patch -Np1 <./httpd.h.patch || true
+#patch -Np1 <./httpd.h.patch || true
 
 # fix multiple definition errors
 if ! make; then
-	cp -fv -- server/exports.c{.patched,}
-	patch -Np1 <./mutex.patch || true
+#	cp -fv -- server/exports.c{.patched,}
+#	patch -Np1 <./mutex.patch || true
 	make
 fi
 make install
