@@ -4,15 +4,15 @@ echo "buildconf: checking installation..."
 res=0
 
 # any python
-python=`build/PrintPath python`
+python=`build/PrintPath python2`
 if test -z "$python"; then
-  echo "buildconf: python not found."
-  echo "           You need python installed"
+  echo "buildconf: python2 not found."
+  echo "           You need python2 installed"
   echo "           to build APR from SVN."
   res=1
 else
-  py_version=`python -c 'import sys; print sys.version' 2>&1|sed 's/ .*//;q'`
-  echo "buildconf: python version $py_version (ok)"
+  py_version=`python2 -c 'import sys; print sys.version' 2>&1|sed 's/ .*//;q'`
+  echo "buildconf: python2 version $py_version (ok)"
 fi
 
 # autoconf 2.59 or newer
