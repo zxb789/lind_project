@@ -12,7 +12,7 @@ export PREFIX="${PREFIX:-$HOME/lind_project/lind/repy/repy}"
 
 make clean
 rm -fv -- Makefile
-./configure
+#./configure
 
 ./configure \
 	--static \
