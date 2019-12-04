@@ -71,7 +71,7 @@ fi
 LDCONFIG=${LDCONFIG-"ldconfig"}
 LDSHAREDLIBC="${LDSHAREDLIBC--lc}"
 ARCHS=
-prefix=${prefix-/usr/local}
+prefix=${prefix-/home/lind/lind_project/lind/repy/repy/}
 exec_prefix=${exec_prefix-'${prefix}'}
 libdir=${libdir-'${exec_prefix}/lib'}
 sharedlibdir=${sharedlibdir-'${libdir}'}
