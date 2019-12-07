@@ -242,95 +242,95 @@ const void *ap_hack_ap_regkey_value_remove = (const void *)ap_regkey_value_remov
 /*
  * /home/lind/lind_project/tests/test_cases/httpd/include/apr_buckets.h
  */
-//const void *ap_hack_apr_brigade_create = (const void *)apr_brigade_create;
-//const void *ap_hack_apr_brigade_destroy = (const void *)apr_brigade_destroy;
-//const void *ap_hack_apr_brigade_cleanup = (const void *)apr_brigade_cleanup;
-//const void *ap_hack_apr_brigade_split_ex = (const void *)apr_brigade_split_ex;
-//const void *ap_hack_apr_brigade_split = (const void *)apr_brigade_split;
-//const void *ap_hack_apr_brigade_partition = (const void *)apr_brigade_partition;
-//const void *ap_hack_apr_brigade_length = (const void *)apr_brigade_length;
-//const void *ap_hack_apr_brigade_flatten = (const void *)apr_brigade_flatten;
-//const void *ap_hack_apr_brigade_pflatten = (const void *)apr_brigade_pflatten;
-//const void *ap_hack_apr_brigade_split_line = (const void *)apr_brigade_split_line;
-//const void *ap_hack_apr_brigade_to_iovec = (const void *)apr_brigade_to_iovec;
-//const void *ap_hack_apr_brigade_vputstrs = (const void *)apr_brigade_vputstrs;
-//const void *ap_hack_apr_brigade_write = (const void *)apr_brigade_write;
-//const void *ap_hack_apr_brigade_writev = (const void *)apr_brigade_writev;
-//const void *ap_hack_apr_brigade_puts = (const void *)apr_brigade_puts;
-//const void *ap_hack_apr_brigade_putc = (const void *)apr_brigade_putc;
-//const void *ap_hack_apr_brigade_putstrs = (const void *)apr_brigade_putstrs;
-//const void *ap_hack_apr_brigade_printf = (const void *)apr_brigade_printf;
-//const void *ap_hack_apr_brigade_vprintf = (const void *)apr_brigade_vprintf;
-//const void *ap_hack_apr_brigade_insert_file = (const void *)apr_brigade_insert_file;
-//const void *ap_hack_apr_bucket_alloc_create = (const void *)apr_bucket_alloc_create;
-//const void *ap_hack_apr_bucket_alloc_create_ex = (const void *)apr_bucket_alloc_create_ex;
-//const void *ap_hack_apr_bucket_alloc_destroy = (const void *)apr_bucket_alloc_destroy;
-//const void *ap_hack_apr_bucket_alloc_aligned_floor = (const void *)apr_bucket_alloc_aligned_floor;
-//const void *ap_hack_apr_bucket_alloc = (const void *)apr_bucket_alloc;
-//const void *ap_hack_apr_bucket_free = (const void *)apr_bucket_free;
-//const void *ap_hack_apr_bucket_setaside_noop = (const void *)apr_bucket_setaside_noop;
-//const void *ap_hack_apr_bucket_setaside_notimpl = (const void *)apr_bucket_setaside_notimpl;
-//const void *ap_hack_apr_bucket_split_notimpl = (const void *)apr_bucket_split_notimpl;
-//const void *ap_hack_apr_bucket_copy_notimpl = (const void *)apr_bucket_copy_notimpl;
-//const void *ap_hack_apr_bucket_destroy_noop = (const void *)apr_bucket_destroy_noop;
-//const void *ap_hack_apr_bucket_simple_split = (const void *)apr_bucket_simple_split;
-//const void *ap_hack_apr_bucket_simple_copy = (const void *)apr_bucket_simple_copy;
-//const void *ap_hack_apr_bucket_shared_make = (const void *)apr_bucket_shared_make;
-//const void *ap_hack_apr_bucket_shared_destroy = (const void *)apr_bucket_shared_destroy;
-//const void *ap_hack_apr_bucket_shared_split = (const void *)apr_bucket_shared_split;
-//const void *ap_hack_apr_bucket_shared_copy = (const void *)apr_bucket_shared_copy;
-//const void *ap_hack_apr_bucket_eos_create = (const void *)apr_bucket_eos_create;
-//const void *ap_hack_apr_bucket_eos_make = (const void *)apr_bucket_eos_make;
-//const void *ap_hack_apr_bucket_flush_create = (const void *)apr_bucket_flush_create;
-//const void *ap_hack_apr_bucket_flush_make = (const void *)apr_bucket_flush_make;
-//const void *ap_hack_apr_bucket_immortal_create = (const void *)apr_bucket_immortal_create;
-//const void *ap_hack_apr_bucket_immortal_make = (const void *)apr_bucket_immortal_make;
-//const void *ap_hack_apr_bucket_transient_create = (const void *)apr_bucket_transient_create;
-//const void *ap_hack_apr_bucket_transient_make = (const void *)apr_bucket_transient_make;
-//const void *ap_hack_apr_bucket_heap_create = (const void *)apr_bucket_heap_create;
-//const void *ap_hack_apr_bucket_heap_make = (const void *)apr_bucket_heap_make;
-//const void *ap_hack_apr_bucket_pool_create = (const void *)apr_bucket_pool_create;
-//const void *ap_hack_apr_bucket_pool_make = (const void *)apr_bucket_pool_make;
+const void *ap_hack_apr_brigade_create = (const void *)apr_brigade_create;
+const void *ap_hack_apr_brigade_destroy = (const void *)apr_brigade_destroy;
+const void *ap_hack_apr_brigade_cleanup = (const void *)apr_brigade_cleanup;
+const void *ap_hack_apr_brigade_split_ex = (const void *)apr_brigade_split_ex;
+const void *ap_hack_apr_brigade_split = (const void *)apr_brigade_split;
+const void *ap_hack_apr_brigade_partition = (const void *)apr_brigade_partition;
+const void *ap_hack_apr_brigade_length = (const void *)apr_brigade_length;
+const void *ap_hack_apr_brigade_flatten = (const void *)apr_brigade_flatten;
+const void *ap_hack_apr_brigade_pflatten = (const void *)apr_brigade_pflatten;
+const void *ap_hack_apr_brigade_split_line = (const void *)apr_brigade_split_line;
+const void *ap_hack_apr_brigade_to_iovec = (const void *)apr_brigade_to_iovec;
+const void *ap_hack_apr_brigade_vputstrs = (const void *)apr_brigade_vputstrs;
+const void *ap_hack_apr_brigade_write = (const void *)apr_brigade_write;
+const void *ap_hack_apr_brigade_writev = (const void *)apr_brigade_writev;
+const void *ap_hack_apr_brigade_puts = (const void *)apr_brigade_puts;
+const void *ap_hack_apr_brigade_putc = (const void *)apr_brigade_putc;
+const void *ap_hack_apr_brigade_putstrs = (const void *)apr_brigade_putstrs;
+const void *ap_hack_apr_brigade_printf = (const void *)apr_brigade_printf;
+const void *ap_hack_apr_brigade_vprintf = (const void *)apr_brigade_vprintf;
+const void *ap_hack_apr_brigade_insert_file = (const void *)apr_brigade_insert_file;
+const void *ap_hack_apr_bucket_alloc_create = (const void *)apr_bucket_alloc_create;
+const void *ap_hack_apr_bucket_alloc_create_ex = (const void *)apr_bucket_alloc_create_ex;
+const void *ap_hack_apr_bucket_alloc_destroy = (const void *)apr_bucket_alloc_destroy;
+const void *ap_hack_apr_bucket_alloc_aligned_floor = (const void *)apr_bucket_alloc_aligned_floor;
+const void *ap_hack_apr_bucket_alloc = (const void *)apr_bucket_alloc;
+const void *ap_hack_apr_bucket_free = (const void *)apr_bucket_free;
+const void *ap_hack_apr_bucket_setaside_noop = (const void *)apr_bucket_setaside_noop;
+const void *ap_hack_apr_bucket_setaside_notimpl = (const void *)apr_bucket_setaside_notimpl;
+const void *ap_hack_apr_bucket_split_notimpl = (const void *)apr_bucket_split_notimpl;
+const void *ap_hack_apr_bucket_copy_notimpl = (const void *)apr_bucket_copy_notimpl;
+const void *ap_hack_apr_bucket_destroy_noop = (const void *)apr_bucket_destroy_noop;
+const void *ap_hack_apr_bucket_simple_split = (const void *)apr_bucket_simple_split;
+const void *ap_hack_apr_bucket_simple_copy = (const void *)apr_bucket_simple_copy;
+const void *ap_hack_apr_bucket_shared_make = (const void *)apr_bucket_shared_make;
+const void *ap_hack_apr_bucket_shared_destroy = (const void *)apr_bucket_shared_destroy;
+const void *ap_hack_apr_bucket_shared_split = (const void *)apr_bucket_shared_split;
+const void *ap_hack_apr_bucket_shared_copy = (const void *)apr_bucket_shared_copy;
+const void *ap_hack_apr_bucket_eos_create = (const void *)apr_bucket_eos_create;
+const void *ap_hack_apr_bucket_eos_make = (const void *)apr_bucket_eos_make;
+const void *ap_hack_apr_bucket_flush_create = (const void *)apr_bucket_flush_create;
+const void *ap_hack_apr_bucket_flush_make = (const void *)apr_bucket_flush_make;
+const void *ap_hack_apr_bucket_immortal_create = (const void *)apr_bucket_immortal_create;
+const void *ap_hack_apr_bucket_immortal_make = (const void *)apr_bucket_immortal_make;
+const void *ap_hack_apr_bucket_transient_create = (const void *)apr_bucket_transient_create;
+const void *ap_hack_apr_bucket_transient_make = (const void *)apr_bucket_transient_make;
+const void *ap_hack_apr_bucket_heap_create = (const void *)apr_bucket_heap_create;
+const void *ap_hack_apr_bucket_heap_make = (const void *)apr_bucket_heap_make;
+const void *ap_hack_apr_bucket_pool_create = (const void *)apr_bucket_pool_create;
+const void *ap_hack_apr_bucket_pool_make = (const void *)apr_bucket_pool_make;
 #if APR_HAS_MMAP
-//const void *ap_hack_apr_bucket_mmap_create = (const void *)apr_bucket_mmap_create;
-//const void *ap_hack_apr_bucket_mmap_make = (const void *)apr_bucket_mmap_make;
+const void *ap_hack_apr_bucket_mmap_create = (const void *)apr_bucket_mmap_create;
+const void *ap_hack_apr_bucket_mmap_make = (const void *)apr_bucket_mmap_make;
 #endif
-//const void *ap_hack_apr_bucket_socket_create = (const void *)apr_bucket_socket_create;
-//const void *ap_hack_apr_bucket_socket_make = (const void *)apr_bucket_socket_make;
-//const void *ap_hack_apr_bucket_pipe_create = (const void *)apr_bucket_pipe_create;
-//const void *ap_hack_apr_bucket_pipe_make = (const void *)apr_bucket_pipe_make;
-//const void *ap_hack_apr_bucket_file_create = (const void *)apr_bucket_file_create;
-//const void *ap_hack_apr_bucket_file_make = (const void *)apr_bucket_file_make;
-//const void *ap_hack_apr_bucket_file_enable_mmap = (const void *)apr_bucket_file_enable_mmap;
-//const void *ap_hack_apr_bucket_file_set_buf_size = (const void *)apr_bucket_file_set_buf_size;
+const void *ap_hack_apr_bucket_socket_create = (const void *)apr_bucket_socket_create;
+const void *ap_hack_apr_bucket_socket_make = (const void *)apr_bucket_socket_make;
+const void *ap_hack_apr_bucket_pipe_create = (const void *)apr_bucket_pipe_create;
+const void *ap_hack_apr_bucket_pipe_make = (const void *)apr_bucket_pipe_make;
+const void *ap_hack_apr_bucket_file_create = (const void *)apr_bucket_file_create;
+const void *ap_hack_apr_bucket_file_make = (const void *)apr_bucket_file_make;
+const void *ap_hack_apr_bucket_file_enable_mmap = (const void *)apr_bucket_file_enable_mmap;
+const void *ap_hack_apr_bucket_file_set_buf_size = (const void *)apr_bucket_file_set_buf_size;
 
 /*
  * /home/lind/lind_project/tests/test_cases/httpd/include/apr_hooks.h
  */
-//const void *ap_hack_apr_hook_sort_register = (const void *)apr_hook_sort_register;
-//const void *ap_hack_apr_hook_sort_all = (const void *)apr_hook_sort_all;
-//const void *ap_hack_apr_hook_debug_show = (const void *)apr_hook_debug_show;
-//const void *ap_hack_apr_hook_deregister_all = (const void *)apr_hook_deregister_all;
+const void *ap_hack_apr_hook_sort_register = (const void *)apr_hook_sort_register;
+const void *ap_hack_apr_hook_sort_all = (const void *)apr_hook_sort_all;
+const void *ap_hack_apr_hook_debug_show = (const void *)apr_hook_debug_show;
+const void *ap_hack_apr_hook_deregister_all = (const void *)apr_hook_deregister_all;
 
 /*
  * /home/lind/lind_project/tests/test_cases/httpd/include/apr_optional.h
  */
-//const void *ap_hack_apr_dynamic_fn_register = (const void *)apr_dynamic_fn_register;
-//const void *ap_hack_apr_dynamic_fn_retrieve = (const void *)apr_dynamic_fn_retrieve;
+const void *ap_hack_apr_dynamic_fn_register = (const void *)apr_dynamic_fn_register;
+const void *ap_hack_apr_dynamic_fn_retrieve = (const void *)apr_dynamic_fn_retrieve;
 
 /*
  * /home/lind/lind_project/tests/test_cases/httpd/include/apr_optional_hooks.h
  */
-//const void *ap_hack_apr_optional_hook_add = (const void *)apr_optional_hook_add;
-//const void *ap_hack_apr_optional_hook_get = (const void *)apr_optional_hook_get;
+const void *ap_hack_apr_optional_hook_add = (const void *)apr_optional_hook_add;
+const void *ap_hack_apr_optional_hook_get = (const void *)apr_optional_hook_get;
 
 /*
  * /home/lind/lind_project/tests/test_cases/httpd/include/apr_uri.h
  */
-//const void *ap_hack_apr_uri_port_of_scheme = (const void *)apr_uri_port_of_scheme;
-//const void *ap_hack_apr_uri_unparse = (const void *)apr_uri_unparse;
-//const void *ap_hack_apr_uri_parse = (const void *)apr_uri_parse;
-//const void *ap_hack_apr_uri_parse_hostinfo = (const void *)apr_uri_parse_hostinfo;
+const void *ap_hack_apr_uri_port_of_scheme = (const void *)apr_uri_port_of_scheme;
+const void *ap_hack_apr_uri_unparse = (const void *)apr_uri_unparse;
+const void *ap_hack_apr_uri_parse = (const void *)apr_uri_parse;
+const void *ap_hack_apr_uri_parse_hostinfo = (const void *)apr_uri_parse_hostinfo;
 
 /*
  * /home/lind/lind_project/tests/test_cases/httpd/include/http_config.h
