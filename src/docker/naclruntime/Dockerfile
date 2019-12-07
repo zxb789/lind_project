@@ -17,10 +17,34 @@ USER lind
 
 WORKDIR /home/lind/lind_project/
 RUN git pull -t -j8
+RUN git checkout apache
 RUN for t in nacl repy install; do ./src/mklind -q "$t"; done
 RUN mkdir -p lind/repy/repy/tests
 RUN for c in $TEST_CASES; do x86_64-nacl-gcc -std=c99 "tests/test_cases/$c.c" -o "lind/repy/repy/tests/$c"; done
+
+# Build bash
 WORKDIR /home/lind/lind_project/tests/test_cases/bash/
+RUN ./bootstrap_nacl --prefix="/home/lind/lind_project/lind/repy/repy"
+RUN make install
+
+# Build pcre
+WORKDIR /home/lind/lind_project/tests/test_cases/pcre/
+RUN ./bootstrap_nacl --prefix="/home/lind/lind_project/lind/repy/repy"
+RUN make install
+
+# Build zlib
+WORKDIR /home/lind/lind_project/tests/test_cases/zlib/
+RUN ./bootstrap_nacl --prefix="/home/lind/lind_project/lind/repy/repy"
+RUN make install
+
+# Build brotli
+WORKDIR /home/lind/lind_project/tests/test_cases/brotli/
+RUN ./bootstrap_nacl --prefix="/home/lind/lind_project/lind/repy/repy"
+RUN make install
+
+
+# Build apache
+WORKDIR /home/lind/lind_project/tests/test_cases/httpd/
 RUN ./bootstrap_nacl --prefix="/home/lind/lind_project/lind/repy/repy"
 RUN make install
 
