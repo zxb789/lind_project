@@ -1997,7 +1997,7 @@
 #define HAVE_PIPE 1
 
 /* Define to 1 if you have the `pipe2' function. */
-/* #undef HAVE_PIPE2 */
+#define HAVE_PIPE2 1
 
 /* Define to 1 if you have the `posix_fadvise' function. */
 /* #undef HAVE_POSIX_FADVISE */
@@ -2991,7 +2991,7 @@
 /* #undef PACKAGE_PACKAGER_VERSION */
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "GNU coreutils 0.10-beta.85-26aff"
+#define PACKAGE_STRING "GNU coreutils 0.10-rc1.249-d102-dirty"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "coreutils"
@@ -3000,7 +3000,7 @@
 #define PACKAGE_URL "https://www.gnu.org/software/coreutils/"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.10-beta.85-26aff"
+#define PACKAGE_VERSION "0.10-rc1.249-d102-dirty"
 
 /* Define to the maximum link count that a true pipe can have. */
 /* #undef PIPE_LINK_COUNT_MAX */
@@ -3307,7 +3307,7 @@
 #define USE_XATTR 0
 
 /* Version number of package */
-#define VERSION "0.10-beta.85-26aff"
+#define VERSION "0.10-rc1.249-d102-dirty"
 
 /* Define to 1 if unsetenv returns void instead of int. */
 /* #undef VOID_UNSETENV */

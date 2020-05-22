@@ -1,1 +1,1 @@
-/home/jp/lind_project/test_cases/coreutils/gnulib/top/maint.mk
+/home/lind/lind_project/tests/applications/coreutils/gnulib/top/maint.mk

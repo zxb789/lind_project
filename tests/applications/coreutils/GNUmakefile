@@ -1,1 +1,1 @@
-/home/jp/lind_project/test_cases/coreutils/gnulib/top/GNUmakefile
+/home/lind/lind_project/tests/applications/coreutils/gnulib/top/GNUmakefile

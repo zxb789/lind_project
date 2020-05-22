@@ -1620,7 +1620,7 @@ _GL_WARN_ON_USE (pipe, "pipe is unportable - "
    Return 0 upon success, or -1 with errno set upon failure.
    See also the Linux man page at
    <https://www.kernel.org/doc/man-pages/online/pages/man2/pipe2.2.html>.  */
-# if 0
+# if 1
 #  if !(defined __cplusplus && defined GNULIB_NAMESPACE)
 #   define pipe2 rpl_pipe2
 #  endif
